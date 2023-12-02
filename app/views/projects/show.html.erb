@@ -1,0 +1,9 @@
+<h1><%= @project.title %></h1>
+
+<div class="project-details">
+  <p><strong>Description:</strong> <%= @project.description %></p>
+  <p><strong>Technologies Used:</strong> <%= @project.technologies_used %></p>
+  <!-- Add more details as needed -->
+
+  <%= link_to 'Back to Projects', projects_path %>
+</div>
